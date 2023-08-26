@@ -1,0 +1,54 @@
+/* @tailwind base; */
+/* @tailwind components; */
+/* @tailwind utilities; */
+
+
+
+
+body, html {
+  margin: 0;
+  font-family: inherit;
+}
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+  position: relative;
+
+}
+
+
+
+
+
+
+.cardWrapper {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding-top: 80px;
+  box-sizing: border-box;
+}
+.nextBtn {
+  position: absolute;
+  right: 0;
+  top: 50%;
+}
+.backBtn {
+  position: absolute;
+  left: 0;
+  top: 50%;
+}
+
+.btn {
+  cursor: pointer;
+  transition: all 0.1s;
+  &:hover {
+    scale: 1.2;
+  }
+}
+a {
+  text-decoration: none;
+}
